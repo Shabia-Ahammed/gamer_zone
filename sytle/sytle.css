@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Work+Sans&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+/* 
+    Navigation styles start here
+*/
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 38px 240px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.logo-img {
+  width: 86px;
+  height: 40px;
+}
+.logo-name {
+  font-size: 45px;
+  font-weight: 700;
+  color: #0b0223;
+}
+.logo span {
+  color: #ff42a5;
+}
+
+.youtube-logo {
+  width: 33px;
+  height: 24px;
+}
+.tik-tok-logo {
+  width: 24px;
+  height: 24px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #3c354f;
+}
+
+.nav-sub-links {
+  display: flex;
+  gap: 20px;
+  width: 262px;
+  height: 56px;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  align-items: center;
+  justify-content: center;
+}
+/* 
+    Navigation styles start here
+*/
