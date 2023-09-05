@@ -149,8 +149,11 @@ nav a {
   gap: 15px;
 }
 
-.signin {
+.signin,
+.know_more {
   display: inline-flex;
+  color: #fff;
+  text-transform: uppercase;
   padding: 21px 40px;
   align-items: flex-start;
   gap: 10px;
@@ -164,14 +167,67 @@ nav a {
   padding: 21px 40px;
   align-items: flex-start;
   gap: 10px;
+  color: #fff;
   border-radius: 30px;
   background: #4ec5f7;
   border: none;
+  text-transform: uppercase;
 }
 
 .MainButton button {
   font-size: 17px;
 }
 
-.sectionimg {
+/* Banner Section styles End here */
+
+
+
+
+
+/* Gamer Section styles start here */
+
+.gamer-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pTag {
+  text-align: right;
+  font-size: 48px;
+  font-weight: 700;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pTag2 {
+  color: #534c64;
+  text-align: right;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 520px;
+}
+
+.ourPurpose {
+  color: #534c64;
+  text-align: right;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 45px;
+}
+
+.gamerEveryone {
+  color: #534c64;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 45px;
+}
+
+.know_more_div{
+
+  display: flex;
+  justify-content: end;
 }
