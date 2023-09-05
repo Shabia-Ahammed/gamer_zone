@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&family=Work+Sans&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -7,16 +6,15 @@
   font-family: "Work Sans", sans-serif;
 }
 /* 
-    Navigation styles start here
+  Navigation styles start here
 */
 
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 38px 240px;
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 38px 240px;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 
 .logo {
@@ -46,10 +44,10 @@ header{
   height: 24px;
 }
 
-nav{
-    display: flex;
-    align-items: center;
-    gap: 32px;
+nav {
+  display: flex;
+  align-items: center;
+  gap: 32px;
 }
 
 nav a {
@@ -68,5 +66,112 @@ nav a {
   justify-content: center;
 }
 /* 
-    Navigation styles start here
+    Navigation styles End here
 */
+
+/* Banner Section styles start here */
+
+#sectionA {
+  /* height: 450px;
+  width: 350px; */
+  display: flex;
+
+  justify-content: center;
+  gap: 150px;
+}
+
+.gooddivcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.playlike {
+  color: #0b0223;
+  text-align: center;
+  font-size: 45px;
+}
+
+.goat {
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 95px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.iconplay img {
+  height: 24px;
+  width: 24px;
+}
+
+.iconplay {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  padding: 10px;
+}
+
+.downloadicon img {
+  height: 24px;
+  width: 24px;
+}
+
+.downloadicon {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  padding: 10px;
+}
+
+.usereicon img {
+  height: 24px;
+  width: 24px;
+}
+
+.usereicon {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  padding: 10px;
+}
+
+.MainButton {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 15px;
+}
+
+.signin {
+  display: inline-flex;
+  padding: 21px 40px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 30px;
+  border: none;
+  background: linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%);
+}
+
+.go {
+  display: inline-flex;
+  padding: 21px 40px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 30px;
+  background: #4ec5f7;
+  border: none;
+}
+
+.MainButton button {
+  font-size: 17px;
+}
+
+.sectionimg {
+}
